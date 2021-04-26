@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: consolas;
+    --primary-color: #092532;
+    --secondary-color: #89c9b8;
+    --neutral-color: "#e1ffc2";
+    --opposite-strong: #e84545;
+    --opposite-light: #c7e2b2;
+}
+
+body{
+    display: grid;
+    place-items:center;
+    min-height: 100vh;
+    background: var (--neutral-color);   
+}
+#app{
+    display: grid;
+    place-items:center;
+    min-width: 100vw;
+    min-height: 100vh;
+
+}
+

@@ -1,0 +1,19 @@
+.slide-3{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr ;
+    grid-template-areas: "main";
+}
+
+.slide-3__title{
+    color: white;
+    grid-area: main;
+    z-index: 100;
+    font-size: 200px;
+    letter-spacing: 30px;
+}
+
+#slide-3 {
+    grid-area: main;
+}
